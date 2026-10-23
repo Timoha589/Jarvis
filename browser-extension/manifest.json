@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Джарвис",
+  "version": "0.1.0",
+  "description": "Даёт Джарвису работать в этом браузере: открывать страницы, читать их, нажимать и заполнять.",
+  "permissions": ["debugger", "tabs"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "Джарвис: дать ему эту вкладку" },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwRsUUO4mmbCi4JpmrIoIw31iVW9+xUJRZ6nSzya17PQkaUPDxe1IpgM+vpd/xB6mJWlJSyE1Lj95c0sbomGfVY1M0zUeKbaRVcAb+/a6m59gNR+ubFlmTX0nK9/8fE2FpRB9D+4N5jyeIPQuASW/0oswI2/ijK7hH5NTRX8gWc/ROMSgUj7rKhTAgBrICt/NsStgDPsxRTPPJnhJ/ViJtM1P5KsSYswE987DPoFnpmkFpq8g1ae0eYbQfXy55ieaacC4QWyJPj3daU2kMfBQw7MXnnk0H/WDxouMOIHnd8MlQxpEMqAihj7KpuONH+MUhuj9HEQo4df6bSaIuQ0b4QIDAQAB"
+}
